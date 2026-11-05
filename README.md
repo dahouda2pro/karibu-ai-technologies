@@ -43,3 +43,13 @@ For a production form that submits directly without opening an email application
 - Add verified social media links and legal/privacy pages if needed.
 - Replace any placeholder contact details with approved company information.
 - Confirm brand name, domain and trademark availability.
+
+
+## Leadership section
+
+The homepage includes a Founder & CEO section for MWAMBA KASONGO DAHOUDA. Replace the DKD monogram with an approved professional portrait when one is available. Review the biography and credentials before public launch.
+
+
+## Languages
+
+The website supports English and French. English is the default language; visitors can switch instantly using the EN / FR control in the header. The language switch updates the page without reloading.
