@@ -53,3 +53,7 @@ The homepage includes a Founder & CEO section for MWAMBA KASONGO DAHOUDA. Replac
 ## Languages
 
 The website supports English and French. English is the default language; visitors can switch instantly using the EN / FR control in the header. The language switch updates the page without reloading.
+
+
+## Advanced AI Analytics section
+The website includes an Advanced AI Analytics section in English and French, covering people counting and tracking, vehicle detection and classification, PPE monitoring, visual category / activity classification, face matching workflows and automatic license plate recognition (LPR). These are presented as solution capabilities; the copy includes human-review and privacy safeguards for sensitive use cases.
