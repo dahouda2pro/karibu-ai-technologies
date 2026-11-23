@@ -57,3 +57,31 @@
 .language-switch button{border:0;background:transparent;color:#6b7f91;font:800 10px 'Manrope',sans-serif;padding:7px 9px;border-radius:999px;cursor:pointer;transition:all .2s}
 .language-switch button.active{background:#102a43;color:#fff;box-shadow:0 2px 7px rgba(16,42,67,.18)}
 @media(max-width:700px){.language-switch{margin-left:auto;margin-right:8px}.language-switch button{padding:7px 8px}.nav-wrap{gap:7px}}
+
+/* Advanced AI Analytics */
+.advanced-ai{background:#f3f7fb;position:relative;overflow:hidden}
+.advanced-ai:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-260px;top:-260px;background:radial-gradient(circle,rgba(38,157,225,.11),transparent 68%);pointer-events:none}
+.advanced-ai-intro{display:grid;grid-template-columns:1fr 250px;align-items:end;gap:55px;margin-bottom:42px;position:relative}
+.advanced-ai-intro h2{font:800 clamp(32px,4vw,48px)/1.13 'Manrope',sans-serif;letter-spacing:-.045em;color:var(--navy);max-width:780px;margin:14px 0 15px}
+.advanced-ai-intro p{font-size:14px;line-height:1.85;color:var(--muted);max-width:720px;margin:0}
+.advanced-ai-aside{display:flex;flex-direction:column;gap:9px;padding:23px;border-radius:10px;background:#0b2948;color:#fff;box-shadow:0 15px 35px rgba(9,39,68,.13)}
+.advanced-ai-aside svg{color:#59c5f4;margin-bottom:8px}.advanced-ai-aside b{font:700 14px 'Manrope'}.advanced-ai-aside span{font-size:10px;line-height:1.6;color:#a9c2d6}
+.advanced-ai-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;position:relative}
+.advanced-ai-card{min-height:310px;padding:25px 23px 21px;background:#fff;border:1px solid #e0e9f1;border-radius:10px;display:flex;flex-direction:column;box-shadow:0 10px 30px rgba(18,49,77,.035);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+.advanced-ai-card:hover{transform:translateY(-4px);border-color:#b7d9ed;box-shadow:0 18px 38px rgba(18,49,77,.09)}
+.advanced-ai-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;color:#9aabba;font:800 10px 'Manrope';letter-spacing:.12em}
+.advanced-ai-icon{width:46px;height:46px;border-radius:9px;display:grid;place-items:center;background:#eaf6fd;color:#087fbd}
+.advanced-ai-card h3{font:800 17px/1.35 'Manrope';letter-spacing:-.025em;color:var(--navy);margin:0 0 11px}
+.advanced-ai-card p{font-size:11.5px;line-height:1.8;color:var(--muted);margin:0 0 17px}
+.advanced-ai-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:3px}
+.advanced-ai-tags span{font-size:9px;font-weight:700;color:#45647e;background:#f0f5f9;border-radius:4px;padding:6px 8px}
+.advanced-ai-link{display:flex;align-items:center;gap:6px;color:#087fbd;font:700 10px 'Manrope';margin-top:20px;width:max-content}
+.advanced-ai-link:hover{color:#064d7d}
+.advanced-ai-platform{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px 50px;align-items:center;background:#0a2340;border-radius:12px;padding:32px 35px;margin-top:22px;color:#fff}
+.advanced-ai-platform .eyebrow{color:#62c7f4}.advanced-ai-platform h3{font:800 21px/1.35 'Manrope';margin:10px 0 0;letter-spacing:-.025em}.advanced-ai-platform>p{font-size:11.5px;line-height:1.8;color:#b4c9da;margin:0}
+.advanced-ai-tech{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px;padding-top:19px;border-top:1px solid rgba(255,255,255,.14)}
+.advanced-ai-tech span{font-size:9px;font-weight:700;color:#d8e8f4;border:1px solid rgba(180,211,233,.25);border-radius:5px;padding:8px 10px}
+.advanced-ai-responsible{display:flex;gap:12px;align-items:flex-start;margin-top:18px;padding:15px 17px;border:1px solid #dce8f0;border-radius:8px;background:rgba(255,255,255,.72);color:#49647a}
+.advanced-ai-responsible svg{flex:none;color:#1a83b9;margin-top:2px}.advanced-ai-responsible p{font-size:10px;line-height:1.75;margin:0}
+@media(max-width:900px){.advanced-ai-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.advanced-ai-intro{grid-template-columns:1fr 210px;gap:25px}.advanced-ai-platform{gap:18px 25px}}
+@media(max-width:700px){.advanced-ai-intro{grid-template-columns:1fr;gap:22px}.advanced-ai-aside{max-width:none}.advanced-ai-grid{grid-template-columns:1fr;gap:12px}.advanced-ai-card{min-height:0;padding:23px 20px}.advanced-ai-platform{grid-template-columns:1fr;padding:26px 22px}.advanced-ai-tech{grid-column:auto}.advanced-ai-intro h2{font-size:34px}.advanced-ai-responsible{padding:13px}}
